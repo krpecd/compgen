@@ -28,7 +28,7 @@ $ npm link
 ```
 
 ## Usage
-    Usage: compgen <component name> [options]
+    Usage: compgen <componentName> [options]
 
     Options:
       -v, --version              Outputs the version number (e.g rc -v)

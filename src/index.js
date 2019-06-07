@@ -16,7 +16,7 @@ if (version) {
 
 if (help) {
   console.log([
-    'usage: compgen <filename> [options]',
+    'usage: compgen <componentName> [options]',
     '',
     'options:',
     '  -v, --version            Output\'s the version number (e.g compgen -v)',
