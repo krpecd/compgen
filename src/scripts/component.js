@@ -18,7 +18,7 @@ if (config.componentExtension === '.js' || config.componentExtension === '.jsx')
 
 const
   args = process.argv.slice(2),
-  component = args[1],
+  component = args[0],
   extensions = [];
 
 let subDir = '';

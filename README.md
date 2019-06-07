@@ -26,9 +26,6 @@ npm run build
 ## Usage
     Usage: compgen component <component name> [options]
 
-    Actions:
-      comp, component            Passed in as first argument to signify component creation
-
     Options:
       -v, --version              Outputs the version number (e.g rc -v)
       -h, --help                 Prints out usage options

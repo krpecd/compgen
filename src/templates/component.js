@@ -3,7 +3,7 @@ import config from '../config'
 
 const
   args = process.argv.slice(2),
-  component = args[1];
+  component = args[0];
 
 export const typescriptTemplate = 
 `import React, { PureComponent, ReactNode } from 'react'
