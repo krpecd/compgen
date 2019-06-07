@@ -24,7 +24,7 @@ npm run build
 ```
 Lastly, run this command in root folder of repo to add script to NPM path (So you can execute anywhere)
 ```bash
-$ npm link
+npm link
 ```
 
 ## Usage
