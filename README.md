@@ -38,7 +38,7 @@ npm link
  
 
 ## Configuration
-For custom configuration create `.reactcreaterc` file in your projects root folder.
+For custom configuration create `.compgenrc` file in your projects root folder.
 
 **Default config**:
 ```json

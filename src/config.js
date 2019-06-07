@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const configPath = './.reactcreaterc';
+const configPath = './.compgenrc';
 
 let customConfig = {};
 
