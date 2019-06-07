@@ -45,7 +45,7 @@ For custom configuration create `.reactcreaterc` file in your projects root fold
 {
   "alwaysCreateIndexFile": false,
   "componentExtension": ".tsx",
-  "styleExtenstion": ".scss 
+  "styleExtenstion": ".scss"
 }
 ```
 
