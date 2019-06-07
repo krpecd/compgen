@@ -52,10 +52,13 @@ For custom configuration create `.reactcreaterc` file in your projects root fold
 ### Options
 
 **alwaysCreateIndexFile**
+
 Always include 'index.js' file if creating component inside directory.
 
 **componentExtension**
+
 Supported extensions are `.js`, `.jsx`, `.tsx`
 
 **styleExtension**
+
 You can specify your styles extension according to preprocessor you are using e.g.: `.scss`, `.less`, `.styl`, `.css`
