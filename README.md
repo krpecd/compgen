@@ -27,6 +27,16 @@ Lastly, run this command in root folder of repo to add script to NPM path (So yo
 npm link
 ```
 
+### npm global install
+
+```bash
+git clone https://github.com/krpecd/compgen.git
+```
+Install compgen globally 
+```bash
+npm i <COMPGEN_FOLDER> -g
+```
+
 ## Usage
     Usage: compgen <componentName> [options]
 
