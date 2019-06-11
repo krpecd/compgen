@@ -21,7 +21,8 @@ if (help) {
     'options:',
     '  -v, --version            Output\'s the version number (e.g compgen -v)',
     '  -d, --dir <dirname>      Creates a [component name] directory with component files inside in specified location',
-    '  -i, --index              Includes a index.js file with component (only when using creating component in directory)'
+    '  -i, --index              Includes a index.js file with component (only when using creating component in directory)',
+    '  -s, --style                Creates a SCSS file and create import of the style in Component file'
   ].join('\n'));
   process.exit();
 }
