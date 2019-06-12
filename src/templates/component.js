@@ -7,7 +7,7 @@ const
 
 export const typescriptTemplate = 
 `import React, { PureComponent, ReactNode } from 'react'
-${withStyle ? `import cls from '${component}${config.styleExtension}'` : ''}
+${withStyle ? `import cls from './${component}${config.styleExtension}'` : ''}
 
 interface ${component}Props {
   children: ReactNode
@@ -31,7 +31,7 @@ export default ${component}
 export const jsTemplate = 
 `import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-${withStyle ? `import cls from '${component}${config.styleExtension}'` : ''}
+${withStyle ? `import cls from './${component}${config.styleExtension}'` : ''}
 
 class ${component} extends PureComponent {
   render() {
