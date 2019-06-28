@@ -8,9 +8,9 @@ import { createDirectory, createFiles, writeToFile } from '../utils/file';
 // Loading in appropriate templates
 import { typescriptTemplate, jsTemplate, indexTemplate } from '../templates/component';
 
-let compTmpl = ''
+let compTmpl = '';
 if (config.componentExtension === '.tsx') { 
-  compTmpl = typescriptTemplate 
+  compTmpl = typescriptTemplate;
 }
 if (config.componentExtension === '.js' || config.componentExtension === '.jsx') { 
   compTmpl = jsTemplate;
@@ -24,7 +24,7 @@ const
 let subDir = '';
 
 if (withStyle) {
-  extensions.push(config.styleExtension)
+  extensions.push(config.styleExtension);
 }
 
 // Adding component file extension
@@ -39,7 +39,8 @@ if (withFolder) {
 
 setTimeout(() => {
   if (withFolder && (withIndex || config.alwaysCreateIndexFile)) {
-    createFiles(['.js'], subDir, 'index', indexTemplate, writeToFile)
+    let indexExtension = (config.componentExtension === '.tsx' ? indexExtension = '.ts' : '.js');
+    createFiles([indexExtension], subDir, 'index', indexTemplate, writeToFile);
   }
   
   // Loop through to create necessary files

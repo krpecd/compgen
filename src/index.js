@@ -14,7 +14,7 @@ if (version) {
   process.exit();
 }
 
-if (help) {
+if (help || !args) {
   console.log([
     'usage: compgen <componentName> [options]',
     '',

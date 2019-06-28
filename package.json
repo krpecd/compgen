@@ -1,6 +1,6 @@
 {
   "name": "compgen",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple React CLI that aims to speed up development by generating desired React component markup based on your preferences via the command line.",
   "scripts": {
     "lint": "eslint src",
@@ -32,5 +32,6 @@
     "eslint": "^1.10.3",
     "express": "^4.13.4",
     "rimraf": "^2.5.2"
-  }
+  },
+  "dependencies": {}
 }
